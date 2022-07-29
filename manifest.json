@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 3,
+    "name" : "커스텀 트위치",
+    "version" : "0.1",
+    "content_scripts" : [
+        {
+            "matches" : ["https://www.twitch.tv/*"],
+            "js" : ["jquery-3.6.0.min.js", "index.js"]
+        }
+    ]
+}
